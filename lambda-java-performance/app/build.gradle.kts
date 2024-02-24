@@ -16,6 +16,7 @@ dependencies {
 
     implementation(libs.guava)
     implementation("com.amazonaws:aws-lambda-java-core:1.2.3")
+    implementation("software.amazon.awssdk:s3:2.24.6")
 }
 
 java {
